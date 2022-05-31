@@ -19,6 +19,10 @@ link: "https://www.trust-hub.org/#/data/fics-pcb"
 
 For people wanting to directly use the data in the required format of PASCAL VOC, the csv files from the above dataset has been changed to the PASCAL VOC format and can be found in "workspace\training_demo-fcis\images\all_images"
 
+### Utils
+
+The utils.py has custom scripts for extracting bounding boxes from the main image into idividual images and segregate them into folders acccording to their classes.
+A Easy OCR script to run text detection these images, but I stopped working on OCR. Feel free to use it to make custom pipelines.
 
 ### Results
 
